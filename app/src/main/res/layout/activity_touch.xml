@@ -1,0 +1,32 @@
+<com.leaf8.alicx.touchdemo.MyViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.leaf8.demo.TouchActivity">
+
+    <com.leaf8.alicx.touchdemo.MyViewChild
+        android:id="@+id/childView"
+        android:text="@string/touch_demo"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/head"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/logView"
+            android:text="@string/logTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top" />
+    </ScrollView>
+
+</com.leaf8.alicx.touchdemo.MyViewGroup>

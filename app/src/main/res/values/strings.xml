@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">leaf8</string>
+
+    <string name="hello_world">Hello world!\nLeaf8 Demo List!</string>
+    <string name="touch_demo">Touch Me!</string>
+    <string name="logTitle">Touch Event Log:\n</string>
+
+    <string name="title_activity_touch">TouchActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="touch_menu_no_intercept">no_intercept</string>
+    <string name="touch_menu_activity_intercept">activity_intercept</string>
+    <string name="touch_menu_root_intercept">root_intercept</string>
+    <string name="touch_menu_child_intercept">child_intercept</string>
+</resources>

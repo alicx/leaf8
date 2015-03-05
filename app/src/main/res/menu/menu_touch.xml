@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.leaf8.demo.TouchActivity">
+    <item
+        android:id="@+id/action_none"
+        android:title="@string/touch_menu_no_intercept"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_activity"
+        android:title="@string/touch_menu_activity_intercept"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_root"
+        android:title="@string/touch_menu_root_intercept"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_child"
+        android:title="@string/touch_menu_child_intercept"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+</menu>
